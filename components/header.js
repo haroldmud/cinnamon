@@ -2,9 +2,9 @@ import Button from "./buttons";
 
 function Header() {
     return (
-        <header className="flex fixed w-full bg-white  justify-center py-4 z-20">
-        <section className="flex  w-10/12 justify-between">
-          <div className="w-fit">
+        <header className="flex fixed w-full bg-white  md:justify-start  md:pl-20 pl-4 py-4 z-20">
+        <section className="flex justify-between ">
+          <div className="w-fit md:pr-80">
             <svg className="w-10r" xmlns="http://www.w3.org/2000/svg" width="351" height="45" viewBox="0 0 351 45" fill="none">
               <path d="M0 22.4166C0 8.50263 9.03805 0.0673828 22.912 0.0673828C31.0996 0.0673828 37.7697 3.29115 41.9553 8.38571L33.6509 15.3009C31.5832 12.2609 27.8979 10.0728 23.2788 10.0728C15.875 10.0728 11.1558 14.6829 11.1558 22.3999C11.1558 30.167 15.8916 34.9776 23.2788 34.9776C27.9479 34.9776 31.5832 32.8563 33.6509 29.8163L41.9553 36.7983C37.7697 41.8428 31.6499 44.9997 22.912 44.9997C9.03805 44.9997 0 36.3807 0 22.4166Z" fill="#262626"/>
               <path d="M46.9746 0.9021H57.8303V44.0806H46.9746V0.9021Z" fill="#262626"/>
@@ -29,7 +29,7 @@ function Header() {
             </a>
             <Button button={"Contact Us"}/>
           </div>
-          <div className="md:hidden mt-2">
+          <div className="md:hidden mt-2 ml-32">
             <img className="w-8" src="/icons/icon2.png" />
           </div>
         </section>

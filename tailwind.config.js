@@ -23,7 +23,8 @@ module.exports = {
       colors: {
         blue:"#5135ff",
         green: "#91f1c3",
-        lightblack: "#686868"
+        lightblack: "#686868",
+        yellow: "#ffcb48",
       },
 
       padding: {
@@ -42,7 +43,12 @@ module.exports = {
       width: {
         fit: "fit-content",
         "38r":"38rem",
+        "35r":"35rem",
+        "33r":"33rem",
+        "23/5r":"23.5rem",
         "23r":"23rem",
+        "22r":"22rem",
+        "18/5r":"18.5rem",
         "12r":"12rem",
         "10r": "10rem",
         "3r": "3rem",
@@ -52,6 +58,7 @@ module.exports = {
       height: {
         fit: "fit-content",
         "40r": "40rem",
+        "30r": "30rem",
         "35r": "35rem",
         "30r": "30rem",
       },
