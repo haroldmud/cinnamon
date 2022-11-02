@@ -144,10 +144,14 @@ export default function Home() {
           </div>
           </div>
 
-          <div className="flex text-blue mt-20 border-b border-blue h-fit">
+          <div className="md:flex hidden ml-20 w-fit text-blue mt-20 mb-32 h-fit">
             <div className="w-4 mt-1 h-fit"><img className="" src="/icons/next.png"/></div>
-            <h2 className="md:ml-0 ml-4 md:mt-0 mt-4  w-fit pb-1 h-fit font-bold">VIEW CASE STUDY</h2>
+            <h2 className="md:ml-0 ml-4 md:mt-0 mt-4 border-b-2 border-blue  w-fit pb-1 h-fit font-bold"><a href="#">VIEW CASE STUDY</a></h2>
           </div>
+          <div className="flex md:hidden w-fit mb-2 text-blue  h-fit">
+            <div className="w-4 mt-5 h-fit"><img className="" src="/icons/next.png"/></div>
+            <h2 className="md:ml-0 ml-1 md:mt-0 mt-4 border-b-2 border-blue   w-fit pb-1 h-fit font-bold"><a href="#">VIEW CASE STUDY</a></h2>
+        </div>
         </div>
       </section>
       <section className="bg-gray-100 md:flex pt-60 pb-20 mt-32 hidden">
