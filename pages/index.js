@@ -5,7 +5,7 @@ import Button from "../components/buttons"
 
 export default function Home() {
   return (
-    <>
+    <section>
       <Header/>
       <section className="main py-44 mb-32">
         <div className="text-white md:ml-28 ml-4">
@@ -515,6 +515,6 @@ export default function Home() {
             </div>
           </div>
       </footer>
-    </>
+    </section>
   )
 }
