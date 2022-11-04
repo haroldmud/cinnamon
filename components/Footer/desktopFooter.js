@@ -34,7 +34,7 @@ export default function Desktop () {
         <div className="flex mt-12 gap-56">
           <div className="flex flex-col mt-12">
             <h1 className="font-bold">Our newsletter</h1>
-            <input className="bg-transparent border-b mb-10 pb-3 mt-6" placeholder="Your E-mail"/>
+            <input className="bg-transparent border-b mb-10 pb-3 mt-6 outline-none" placeholder="Your E-mail"/>
             <button>
               <a className="bg-blue hover:bg-white hover:text-blue py-15s hover:py-13s hover:border-2 border-blue px-[100px] hover:px-[98px] text-white text-xl" href="#">Subscribe</a>
             </button>

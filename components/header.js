@@ -29,11 +29,11 @@ function Header() {
           </div>
           <div className="md:flex hidden justify-between gap-4">
             <nav className="flex gap-8 justify-evenly mt-3 font-semibold">
-              <a className="hover:text-blue" href="#">Projects</a>
-              <a className="hover:text-blue" href="#">Services</a>
-              <a className="hover:text-blue" href="#">About Us</a>
-              <a className="hover:text-blue" href="#">Careers</a>
-              <a className="hover:text-blue" href="#">Blog</a>
+              <a className="link1 hover:text-blue" href="#">Projects</a>
+              <a className="link2 hover:text-blue" href="#">Services</a>
+              <a className="link3 hover:text-blue" href="#">About Us</a>
+              <a className="link4 hover:text-blue" href="#">Careers</a>            
+              <a className="link5 hover:text-blue" href="#">Blog</a>         
             </nav>
             <a href="#">
               <img className={`w-3r mx-8 ${pageScrolled ? "hidden" : "block" }`} src="/icons/darkIcon1.jpg"/>
@@ -41,7 +41,7 @@ function Header() {
             </a>
             <Button button={"Contact Us"}/>
           </div>
-          <div className="md:hidden mt-2 ml-32 ">
+          <div className="md:hidden mt-2 ml-20 ">
             <img className={`w-8 ${pageScrolled ? "hidden" : "block" }`} src="/icons/darkIcon2.png" />
             <img className={`w-8 ${pageScrolled ? "block" : "hidden" }`} src="/icons/icon2.png" />
           </div>
