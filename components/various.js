@@ -183,49 +183,51 @@ function Varius() {
         </div>
       </section>
 
-      <section className="overflow-hidden md:ml-28 ml-8">
-        <h1 className="md:text-3r text-4xl font-bold">Our offices</h1>
-        <div className="flex gap-10 md:w-[140%] w-[155%] mt-12">
-          <div>
+      <section className="md:ml-28 ml-8">
+        <h1 className="md:text-3r text-4xl font-bold ">Our offices</h1>
+        <div className="scroll-hide overflow-x-scroll overflow-y-hidden">
+          <div className="flex gap-10 md:w-[140%] w-[155%] mt-12">
             <div>
-              <img className="md:w-33r" src="https://cinnamon.agency/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fzagreb.b5180ce4.jpeg&w=1200&q=75"/>
-            </div>
-            <div className="flex ml-1 md:gap-6 gap-2 md:mt-6">
-              <div className="md:mt-2 mt-[0.6rem]">
-                <img className="md:w-5" src="/icons/icon10.jpg"/>
+              <div>
+                <img className="md:w-33r" src="https://cinnamon.agency/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fzagreb.b5180ce4.jpeg&w=1200&q=75"/>
               </div>
-              <div className="md:mt-auto mt-1">
-                <h2 className="md:text-3xl text-xl font-bold mb-2">Zagreb</h2>
-                <p className="text-lightblack text-xl">Slavonska avenija 6, 10000, Zagreb, Croatia</p>
-              </div>  
+              <div className="flex ml-1 md:gap-6 gap-2 md:mt-6">
+                <div className="md:mt-2 mt-6@">
+                  <img className="md:w-5" src="/icons/icon10.jpg"/>
+                </div>
+                <div className="md:mt-auto mt-1 ">
+                  <h2 className="md:text-3xl text-xl font-bold mb-2">Zagreb</h2>
+                  <p className="text-lightblack text-xl">Slavonska avenija 6, 10000, Zagreb, Croatia</p>
+                </div>  
+              </div>
             </div>
-          </div>
-          <div>
             <div>
-              <img className="md:w-33r" src="https://cinnamon.agency/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnew-york.4d639475.jpeg&w=1200&q=75"/>
-            </div>
-            <div className="flex ml-1 md:gap-6 gap-2 md:mt-6">
-              <div className="md:mt-2 mt-[0.6rem]">
-                <img className="md:w-5" src="/icons/icon10.jpg"/>
+              <div>
+                <img className="md:w-33r" src="https://cinnamon.agency/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnew-york.4d639475.jpeg&w=1200&q=75"/>
               </div>
-              <div className="md:mt-auto mt-1">
-                <h2 className="md:text-3xl text-xl font-bold mb-2">New York</h2>
-                <p className="text-lightblack text-xl">500 7th Ave, New York, NY 10018, United States</p>
-              </div>  
-            </div>
-          </div>
-          <div className="hidden md:block">
-            <div>
-              <img className="md:w-33r" src="https://cinnamon.agency/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbelgrade.a9250fd0.jpeg&w=1200&q=75"/>
-            </div>
-            <div className="flex ml-1 md:gap-6 gap-2 md:mt-6">
-              <div className="md:mt-2 mt-[0.6rem]">
-                <img className="md:w-5" src="/icons/icon10.jpg"/>
+              <div className="flex ml-1 md:gap-6 gap-2 md:mt-6">
+                <div className="md:mt-2 mt-6@">
+                  <img className="md:w-5" src="/icons/icon10.jpg"/>
+                </div>
+                <div className="md:mt-auto mt-1">
+                  <h2 className="md:text-3xl text-xl font-bold mb-2">New York</h2>
+                  <p className="text-lightblack text-xl">500 7th Ave, New York, NY 10018, United States</p>
+                </div>  
               </div>
-              <div className="md:mt-auto mt-1">
-                <h2 className="md:text-3xl text-xl font-bold mb-2">Zagreb</h2>
-                <p className="text-lightblack text-xl">500 7th Ave, New York, NY 10018, United States</p>
-              </div>  
+            </div>
+            <div className="hidden md:block">
+              <div>
+                <img className="md:w-33r" src="https://cinnamon.agency/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbelgrade.a9250fd0.jpeg&w=1200&q=75"/>
+              </div>
+              <div className="flex ml-1 md:gap-6 gap-2 md:mt-6">
+                <div className="md:mt-2 mt-6@">
+                  <img className="md:w-5" src="/icons/icon10.jpg"/>
+                </div>
+                <div className="md:mt-auto mt-1">
+                  <h2 className="md:text-3xl text-xl font-bold mb-2">Zagreb</h2>
+                  <p className="text-lightblack text-xl">500 7th Ave, New York, NY 10018, United States</p>
+                </div>  
+              </div>
             </div>
           </div>
         </div>

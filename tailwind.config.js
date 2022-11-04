@@ -82,6 +82,7 @@ module.exports = {
         "20r": "20rem",
         "40s": "40px",
         "8r": "8rem",
+        "6@":"0.6rem",
       },
       inset: {
         "140r": "140rem",
