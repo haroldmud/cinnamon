@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: "Mont";
+    src: url("../public/Mont/Mont-Regular.otf");
+}
+
+.main {
+    background-image: url(/images/image1.jpg);
+}
+
+.link1 {
+    position: relative;
+}
+
+.link1::after {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    left: 1.7rem;
+    top: -20px;
+    color: transparent;
+    content: ".";
+    height: fit-content;
+    font-size: 3rem;
+}
+
+.link1:hover::after {
+    color: #5135ff;
+}
+
+.link2 {
+    position: relative;
+}
+
+.link2::after {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    left: 1.8rem;
+    top: -20px;
+    color: transparent;
+    content: ".";
+    height: fit-content;
+    font-size: 3rem;
+}
+
+.link2:hover::after {
+    color: #5135ff;
+}
+
+.link3 {
+    position: relative;
+}
+
+.link3::after {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    left: 2rem;
+    top: -20px;
+    color: transparent;
+    content: ".";
+    height: fit-content;
+    font-size: 3rem;
+}
+
+.link3:hover::after {
+    color: #5135ff;
+}
+
+.link4 {
+    position: relative;
+}
+
+.link4::after {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    left: 1.8rem;
+    top: -20px;
+    color: transparent;
+    content: ".";
+    height: fit-content;
+    font-size: 3rem;
+}
+
+.link4:hover::after {
+    color: #5135ff;
+}
+
+.link5 {
+    position: relative;
+}
+
+.link5::after {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    left: 12px;
+    top: -20px;
+    color: transparent;
+    content: ".";
+    height: fit-content;
+    font-size: 3rem;
+}
+
+.link5:hover::after {
+    color: #5135ff;
+}
+
+.scroll-hide::-webkit-scrollbar {
+    background-color: transparent;
+}
